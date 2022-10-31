@@ -3,8 +3,9 @@
 
 typedef struct s_remains
 {
-    char *remaining[OPEN_MAX];
-    int added_remains[OPEN_MAX];
+    char *rem[OPEN_MAX];
+    int a[OPEN_MAX];
+    int ret[OPEN_MAX];
 }   t_remains;
 
 typedef struct s_tools
